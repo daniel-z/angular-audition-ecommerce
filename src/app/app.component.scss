@@ -1,0 +1,17 @@
+.sng-plp-controls {
+    &__control-search {
+        top: -4px;
+    }
+    &__search-imp {
+        padding-right: 26px;
+    }
+    &__serach-btn {
+        border: none;
+        &::before {
+            font-size: 16px;
+            top: -7px;
+            left: -7px;
+            position: relative;
+        }
+    }
+}

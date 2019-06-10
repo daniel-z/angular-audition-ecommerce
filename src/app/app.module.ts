@@ -11,6 +11,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { ProductGridComponent } from './components/product-grid/product-grid.component';
+import { ProductGridListComponent } from './components/product-grid-list/product-grid-list.component';
+import { ProductGridControlsComponent } from './components/product-grid-controls/product-grid-controls.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
     FooterComponent,
     NavigationComponent,
     BreadcrumbsComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    ProductGridComponent,
+    ProductGridListComponent,
+    ProductGridControlsComponent
   ],
   imports: [
     BrowserModule,
