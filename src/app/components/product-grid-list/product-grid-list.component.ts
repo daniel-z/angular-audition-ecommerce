@@ -12,7 +12,6 @@ export class ProductGridListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.products);
   }
 
 }

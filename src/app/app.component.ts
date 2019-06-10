@@ -8,17 +8,9 @@ import { Glass } from './models/glass';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  constructor(private glassesService: GlassesService) {}
+  constructor() {}
 
   glasses: Glass[];
-  title = 'angular-audition-ecommerce';
 
-  ngOnInit() {
-    this.getGlasses();
-  }
-
-  getGlasses(): void {
-    this.glassesService.getGlasses().subscribe(glasses => this.glasses = glasses);
-    console.log(this.glasses);
-  }
+  ngOnInit() {}
 }
