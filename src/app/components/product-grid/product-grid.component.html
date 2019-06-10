@@ -1,2 +1,19 @@
-<app-product-grid-controls></app-product-grid-controls>
-<app-product-grid-list></app-product-grid-list>
+<div class='sng-plp-body'>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <app-product-grid-controls></app-product-grid-controls>
+        </div>
+    </div>
+
+    <div class='sng-products-grid'>
+        <div class='sng-products-grid__products'>
+            <app-product-grid-list [products]=products></app-product-grid-list>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-12'>
+                <button class='sng-products-grid__loadmore-btn'>Load More</button>
+            </div>
+        </div>
+    </div>
+</div>

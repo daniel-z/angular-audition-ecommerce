@@ -1,3 +1,8 @@
-<p>
-  product-grid-list works!
-</p>
+<div class='row'>
+    <div class='col-sm-4' *ngFor='let product of products'>
+        <div class='sng-products-grid__product'>
+            <app-product-item cloudUrlImage={{product.cloudUrlImage}} name={{product.name}} price={{product.price}}>
+            </app-product-item>
+        </div>
+    </div>
+</div>

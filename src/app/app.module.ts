@@ -14,6 +14,7 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
 import { ProductGridComponent } from './components/product-grid/product-grid.component';
 import { ProductGridListComponent } from './components/product-grid-list/product-grid-list.component';
 import { ProductGridControlsComponent } from './components/product-grid-controls/product-grid-controls.component';
+import { ProductItemComponent } from './components/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProductGridControlsComponent } from './components/product-grid-controls
     NewsletterComponent,
     ProductGridComponent,
     ProductGridListComponent,
-    ProductGridControlsComponent
+    ProductGridControlsComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,
