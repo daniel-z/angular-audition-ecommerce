@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainLayoutComponent implements OnInit {
 
+  links = [
+    'Home',
+    'Glasses'
+  ];
+
   constructor() {}
 
   heroImageUrl: string;
